@@ -277,10 +277,10 @@ link_page_rules:
         link: [{ selector: "a.cf-friends-link", attr: "cf-href" }],
         avatar: [{ selector: ".cf-friends-avatar", attr: "cf-src" }],
       },
-    common1:
+    hao:
       {
-        author: [{ selector: ".cf-friends a", attr: "text" }],
-        link: [{ selector: ".cf-friends a", attr: "href" }],
+        author: [{ selector: ".flink-list a .flink-item-name", attr: "text" }],
+        link: [{ selector: ".cf-friends-link", attr: "href" }],
         avatar: [{ selector: ".cf-friends img", attr: "src" }],
       },
     common2:
