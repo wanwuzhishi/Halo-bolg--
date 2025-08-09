@@ -281,17 +281,17 @@ link_page_rules:
       {
        author:
             [
-             { selector: ".flink-list-item .flink-item-name", attr: "text" }
-             { selector: ".flink-list-item .cf-friends-name", attr: "text" }  # 备用选择器
-           ]
+              { selector: ".flink-list-item .flink-item-name", attr: "text" },
+              { selector: ".flink-list-item .cf-friends-name", attr: "text" },  # 备用选择器
+            ],
         link:
-             { selector: ".flink-list-item .cf-friends-link", attr: "href" }
+             { selector: ".flink-list-item .cf-friends-link", attr: "href" },
       avatar:
-           [
-            { selector: ".flink-list-item .flink-avatar", attr: "src" }
-            { selector: ".flink-list-item .cf-friends-avatar", attr: "src" } , # 备用选择器
-           ]
-      }
+            [
+              { selector: ".flink-list-item .flink-avatar", attr: "src" },
+              { selector: ".flink-list-item .cf-friends-avatar", attr: "src" } , # 备用选择器
+            ],
+      },
     common2:
       {
         author: [{ selector: ".cf-friends-name", attr: "text" }],
